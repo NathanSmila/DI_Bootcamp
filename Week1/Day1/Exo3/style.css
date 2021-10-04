@@ -1,0 +1,9 @@
+body {
+	background-image: url(https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	margin: 0px; padding: 0px;
+}
+
+p {
+	background-color: rgb(135, 135, 135); height: 10vh; margin-top: 0px; display: flex; position: relative;
+	}
+
