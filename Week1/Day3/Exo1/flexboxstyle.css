@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+section {
+	border: 5px solid red;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: all;*/
+	justify-content: space-between;
+	/*align-items: flex-start;*/
+
+}
+
+.para {
+	background-color: lightblue;
+	border: 2px solid orange;
+	height: 10vh;
+	margin: 0 1vh 0 1vh;
+}
+
+.middle {
+	height: 30vh;
+	margin: 0 5vh 0 5vh;
+
+	
+}
+

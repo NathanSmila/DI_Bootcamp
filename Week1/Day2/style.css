@@ -1,0 +1,19 @@
+.firstnav {
+    background-color: lightslategrey;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: .85;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+nav {
+    font-weight: bold;
+    width: 100%;
+}
+
+nav {
+    display: block;
+}

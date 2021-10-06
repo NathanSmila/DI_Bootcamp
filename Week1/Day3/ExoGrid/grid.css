@@ -1,0 +1,33 @@
+section {
+	display: grid;
+	border: solid 5px black;
+	height: 100vh;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;  
+
+ 	grid-column-gap: 40px;
+    grid-row-gap: 10px;
+
+    	/*Gap c'est espace entre les elements, cad, margin de Grid*/ 
+		/* Column c'est COLONNE en largeur, ROW c'est LIGNE en hauteur*/
+   
+    padding: 10px;
+}
+
+div {
+	border: solid 2px black;
+}
+
+.red {
+	background-color: red;
+
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+	grid-column: span 2;
+}

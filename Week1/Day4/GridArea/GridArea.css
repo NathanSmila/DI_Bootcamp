@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*body {
+	padding: 0;
+	margin: 0;
+}*/
+
+#grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(11, 1fr);
+	grid-gap: 10px;
+	grid-template-areas: 
+	'Header Header Header Header Header'
+	'Hero Hero MainContent MainContent MainContent'
+	'Hero Hero MainContent MainContent MainContent'
+	'Hero Hero MainContent MainContent MainContent'
+	'Side Side MainContent MainContent MainContent'
+	'Side Side MainContent MainContent MainContent'
+	'Side Side Extra Extra Extra'
+	'Side Side Extra Extra Extra'
+	'RelatedImg RelatedImg RelatedImg RelatedPosts RelatedPosts'
+	'RelatedImg RelatedImg RelatedImg RelatedPosts RelatedPosts'
+	'Footer Footer Footer Footer Footer';
+
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	border: solid 5px black;
+	padding: 15px;
+}
+
+.box {
+	border: ridge gold 5px;
+}
+
+.Header {
+	grid-area: Header;
+	background-color: skyblue;
+}
+
+.Hero {
+	grid-area: Hero;
+	background-color: mediumpurple;
+}
+
+.MainContent {
+	grid-area: MainContent;
+	background-color: yellow;
+}
+
+.SideBar {
+	grid-area: Side;
+	background-color: lightgreen;
+}
+
+.ExtraContent {
+	grid-area: Extra;
+	background-color: darkgrey;
+}
+
+.RelatedImages {
+	grid-area: RelatedImg;
+	background-color: seagreen;
+}
+
+.RelatedPosts {
+	grid-area: RelatedPosts;
+	background-color: lightpink;
+}
+
+.Footer {
+	grid-area: Footer;
+	background-color: orange;
+}

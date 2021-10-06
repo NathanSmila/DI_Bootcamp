@@ -1,0 +1,62 @@
+.exo1 {
+	background-color: #C0F7D7; 
+	border-color: #27C76B; 
+	border-style: ridge; 
+	padding: 30px;
+	width: 35%;
+	height: 35%;
+	align-content: center;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	  margin-left: 80px;
+	border-width: 50%;
+
+	text-align: justify;
+    text-indent: 50px;
+    /*text-decoration: underline;*/
+    text-transform: uppercase;
+    box-shadow: 30px 80px 5px grey;
+}
+
+.joy {  
+	display: list-item;
+	list-style-type: georgian;}
+
+.li1 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.p1 {
+	background-color: pink;
+	color: white;
+}
+
+#p2 {
+	background-color: lightblue;
+	padding: 20px;
+	margin: 20px;
+}
+
+.greybox {
+	background-color: lightgrey;
+	width: 800px;
+	height: 200px;
+}
+
+.bluebox {
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+
+}
+
+.orangebox {
+	position: absolute;
+	left: 13px;
+    bottom: -226px;
+	background-color: orange;
+	height: 150px;
+	width: 150px;
+}
