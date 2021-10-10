@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
 header {
-	background-image: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	background-image: url("https://cdn.pixabay.com/photo/2020/03/13/14/06/dead-sea-4927978_960_720.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	/*opacity: 0.8;*/
+	opacity: 0.8;
 	height: 100vh;
 }
 
@@ -15,5 +21,10 @@ header {
 	color: white;
 	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
-	text-align: center;
+}
+
+
+main {
+	
+
 }
