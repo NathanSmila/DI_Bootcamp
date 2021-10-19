@@ -10,7 +10,7 @@ console.log(fruits);
 fruits.push("Kiwi");
 console.log(fruits);
 
-fruits.shift(0);
+fruits.shift();
 console.log(fruits);
 
 fruits.reverse();
